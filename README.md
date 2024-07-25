@@ -107,7 +107,7 @@ By following these steps, you can use AWS SAM to streamline the creation, deploy
 
 
 
-##IAC AWS CDK Alternative
+## IAC AWS CDK Alternative
 Step 1: Setting up the AWS CDK Project
 Install AWS CDK:
 
