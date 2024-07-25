@@ -1,3 +1,21 @@
+##Overview
+I have  created a setup where an AWS Lambda function interacts with an S3 bucket. Here’s a summary of the process:
+
+S3 Bucket Creation:
+
+I have created  an Amazon S3 bucket to store files. In this case, you uploaded three text files into the bucket.
+IAM Role Creation:
+
+I have created an AWS Identity and Access Management (IAM) role. This role allows the Lambda function to access resources, such as the S3 bucket. I  configured permissions for this role to read from the S3 bucket.
+Lambda Function Creation:
+
+I developed an AWS Lambda function, which is a piece of serverless code that can execute automatically. This Lambda function was programmed to interact with the S3 bucket, such as reading or processing the text files stored in it.
+What It Does
+S3 Bucket: Stores the text files you want to work with.
+IAM Role: Grants the Lambda function the necessary permissions to access the S3 bucket.
+Lambda Function: Performs actions based on the files in the S3 bucket, such as processing content or performing operations based on the file data.
+
+
 # AWS Lambda with S3 Bucket Using AWS SAM
 
 This project demonstrates how to create an AWS Lambda function that searches for a specific substring in text files stored in an S3 bucket using AWS SAM (Serverless Application Model).
