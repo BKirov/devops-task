@@ -46,4 +46,5 @@ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 ``` 
 
 And finally you can run the Python script 
+``` 
 python task.py your-s3-bucket-name your-substring
