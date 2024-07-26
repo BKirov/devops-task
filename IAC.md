@@ -62,7 +62,7 @@ Example:
   }
 }
 
-
+```
 - **Pros:**
     Integrated with AWS services
     Supports a wide range of AWS resources
