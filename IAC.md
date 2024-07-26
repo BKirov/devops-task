@@ -35,7 +35,7 @@ Developed by HashiCorp, Terraform is an open-source tool that allows users to de
 
 **Example:**
 
-```hcl
+```
 provider "aws" {
   region = "us-west-2"
 }
@@ -44,7 +44,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
 }
-
+``
 ## 2. AWS CloudFormation:
 A service by Amazon Web Services that provides a common language for describing and provisioning all the infrastructure resources in a cloud environment.
 
@@ -62,7 +62,7 @@ Example:
   }
 }
 
-
+```
 - **Pros:**
     Integrated with AWS services
     Supports a wide range of AWS resources
